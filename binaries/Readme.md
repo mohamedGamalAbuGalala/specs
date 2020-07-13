@@ -206,7 +206,7 @@ This table shows which Linux distributions are compatible with our pre-built bin
 | Linux Mint | 18             | `debian` |    (:heavy_check_mark:)    |          1.0.x          | [[2]](#dependencies) install `nodejs` or `openssl`                       |
 |            | 19             |          |    (:heavy_check_mark:)    |          1.1.x          | [[2]](#dependencies) install `nodejs` or `openssl`                       |
 | Arch Linux | 2019.09.01     | `debian` |     :heavy_check_mark:     |          1.1.x          |
-| Alpine     | \*             | n/a      |            :x:             |            ?            | see [prisma/photonjs#173](https://github.com/prisma/photonjs/issues/173) |
+| Alpine     | \*             | `node:12-alpine`|    (:heavy_check_mark:)    |            ?            | [Its working with `@prisma/cli@alpha`](https://github.com/prisma/prisma/issues/702#issuecomment-624551803) |
 
 This is also continuously tracked on [our build system](https://buildkite.com/prisma/binary-testing).
 
